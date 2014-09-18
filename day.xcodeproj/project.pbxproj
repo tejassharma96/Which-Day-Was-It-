@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E34C0DDF14FE3A5800A95836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34C0DDE14FE3A5800A95836 /* UIKit.framework */; };
+		E34C0DE114FE3A5800A95836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34C0DE014FE3A5800A95836 /* Foundation.framework */; };
+		E34C0DE314FE3A5800A95836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34C0DE214FE3A5800A95836 /* CoreGraphics.framework */; };
+		E34C0DE914FE3A5800A95836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E34C0DE714FE3A5800A95836 /* InfoPlist.strings */; };
+		E34C0DEB14FE3A5800A95836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E34C0DEA14FE3A5800A95836 /* main.m */; };
+		E34C0DEF14FE3A5800A95836 /* DateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E34C0DEE14FE3A5800A95836 /* DateAppDelegate.m */; };
+		E34C0DF214FE3A5800A95836 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34C0DF114FE3A5800A95836 /* DateViewController.m */; };
+		E34C0DF514FE3A5800A95836 /* DateViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34C0DF314FE3A5800A95836 /* DateViewController_iPhone.xib */; };
+		E34C0DF814FE3A5900A95836 /* DateViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34C0DF614FE3A5900A95836 /* DateViewController_iPad.xib */; };
+		E34C0E0014FE3A5900A95836 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34C0DFF14FE3A5900A95836 /* SenTestingKit.framework */; };
+		E34C0E0114FE3A5900A95836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34C0DDE14FE3A5800A95836 /* UIKit.framework */; };
+		E34C0E0214FE3A5900A95836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34C0DE014FE3A5800A95836 /* Foundation.framework */; };
+		E34C0E0A14FE3A5900A95836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E0814FE3A5900A95836 /* InfoPlist.strings */; };
+		E34C0E0D14FE3A5900A95836 /* dayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E34C0E0C14FE3A5900A95836 /* dayTests.m */; };
+		E34C0E1A14FE3B9600A95836 /* icon ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E1614FE3B9600A95836 /* icon ipad.png */; };
+		E34C0E1C14FE3B9600A95836 /* icon retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E1814FE3B9600A95836 /* icon retina.png */; };
+		E34C0E1D14FE3B9600A95836 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E1914FE3B9600A95836 /* calendar.png */; };
+		E34C0E1F14FE3E1C00A95836 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E1E14FE3E1C00A95836 /* Default.png */; };
+		E34C0E2114FE3E3800A95836 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E2014FE3E3800A95836 /* Default@2x.png */; };
+		E34C0E2314FE410000A95836 /* icon retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E2214FE410000A95836 /* icon retina.png */; };
+		E34C0E2714FE410E00A95836 /* icon ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E2614FE410E00A95836 /* icon ipad.png */; };
+		E34C0E3514FE42DC00A95836 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E34C0E3414FE42DC00A95836 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E34C0E0314FE3A5900A95836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34C0DD114FE3A5700A95836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E34C0DD914FE3A5800A95836;
+			remoteInfo = day;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E34C0DDA14FE3A5800A95836 /* day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34C0DDE14FE3A5800A95836 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E34C0DE014FE3A5800A95836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E34C0DE214FE3A5800A95836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E34C0DE614FE3A5800A95836 /* day-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "day-Info.plist"; sourceTree = "<group>"; };
+		E34C0DE814FE3A5800A95836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E34C0DEA14FE3A5800A95836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E34C0DEC14FE3A5800A95836 /* day-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "day-Prefix.pch"; sourceTree = "<group>"; };
+		E34C0DED14FE3A5800A95836 /* DateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateAppDelegate.h; sourceTree = "<group>"; };
+		E34C0DEE14FE3A5800A95836 /* DateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateAppDelegate.m; sourceTree = "<group>"; };
+		E34C0DF014FE3A5800A95836 /* DateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		E34C0DF114FE3A5800A95836 /* DateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
+		E34C0DF414FE3A5800A95836 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DateViewController_iPhone.xib; sourceTree = "<group>"; };
+		E34C0DF714FE3A5900A95836 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DateViewController_iPad.xib; sourceTree = "<group>"; };
+		E34C0DFE14FE3A5900A95836 /* dayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34C0DFF14FE3A5900A95836 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E34C0E0714FE3A5900A95836 /* dayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dayTests-Info.plist"; sourceTree = "<group>"; };
+		E34C0E0914FE3A5900A95836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E34C0E0B14FE3A5900A95836 /* dayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dayTests.h; sourceTree = "<group>"; };
+		E34C0E0C14FE3A5900A95836 /* dayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dayTests.m; sourceTree = "<group>"; };
+		E34C0E1614FE3B9600A95836 /* icon ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon ipad.png"; sourceTree = "<group>"; };
+		E34C0E1814FE3B9600A95836 /* icon retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon retina.png"; sourceTree = "<group>"; };
+		E34C0E1914FE3B9600A95836 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		E34C0E1E14FE3E1C00A95836 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E34C0E2014FE3E3800A95836 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E34C0E2214FE410000A95836 /* icon retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon retina.png"; sourceTree = "<group>"; };
+		E34C0E2614FE410E00A95836 /* icon ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon ipad.png"; sourceTree = "<group>"; };
+		E34C0E3414FE42DC00A95836 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E34C0DD714FE3A5800A95836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C0DDF14FE3A5800A95836 /* UIKit.framework in Frameworks */,
+				E34C0DE114FE3A5800A95836 /* Foundation.framework in Frameworks */,
+				E34C0DE314FE3A5800A95836 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34C0DFA14FE3A5900A95836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C0E0014FE3A5900A95836 /* SenTestingKit.framework in Frameworks */,
+				E34C0E0114FE3A5900A95836 /* UIKit.framework in Frameworks */,
+				E34C0E0214FE3A5900A95836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E34C0DCF14FE3A5700A95836 = {
+			isa = PBXGroup;
+			children = (
+				E34C0E2614FE410E00A95836 /* icon ipad.png */,
+				E34C0E2214FE410000A95836 /* icon retina.png */,
+				E34C0E2014FE3E3800A95836 /* Default@2x.png */,
+				E34C0E1E14FE3E1C00A95836 /* Default.png */,
+				E34C0DE414FE3A5800A95836 /* day */,
+				E34C0E0514FE3A5900A95836 /* dayTests */,
+				E34C0DDD14FE3A5800A95836 /* Frameworks */,
+				E34C0DDB14FE3A5800A95836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E34C0DDB14FE3A5800A95836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34C0DDA14FE3A5800A95836 /* day.app */,
+				E34C0DFE14FE3A5900A95836 /* dayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E34C0DDD14FE3A5800A95836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E34C0DDE14FE3A5800A95836 /* UIKit.framework */,
+				E34C0DE014FE3A5800A95836 /* Foundation.framework */,
+				E34C0DE214FE3A5800A95836 /* CoreGraphics.framework */,
+				E34C0DFF14FE3A5900A95836 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34C0DE414FE3A5800A95836 /* day */ = {
+			isa = PBXGroup;
+			children = (
+				E34C0DED14FE3A5800A95836 /* DateAppDelegate.h */,
+				E34C0DEE14FE3A5800A95836 /* DateAppDelegate.m */,
+				E34C0DF014FE3A5800A95836 /* DateViewController.h */,
+				E34C0DF114FE3A5800A95836 /* DateViewController.m */,
+				E34C0DF314FE3A5800A95836 /* DateViewController_iPhone.xib */,
+				E34C0DF614FE3A5900A95836 /* DateViewController_iPad.xib */,
+				E34C0DE514FE3A5800A95836 /* Supporting Files */,
+			);
+			path = day;
+			sourceTree = "<group>";
+		};
+		E34C0DE514FE3A5800A95836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E34C0E3414FE42DC00A95836 /* Icon.png */,
+				E34C0E1614FE3B9600A95836 /* icon ipad.png */,
+				E34C0E1814FE3B9600A95836 /* icon retina.png */,
+				E34C0E1914FE3B9600A95836 /* calendar.png */,
+				E34C0DE614FE3A5800A95836 /* day-Info.plist */,
+				E34C0DE714FE3A5800A95836 /* InfoPlist.strings */,
+				E34C0DEA14FE3A5800A95836 /* main.m */,
+				E34C0DEC14FE3A5800A95836 /* day-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E34C0E0514FE3A5900A95836 /* dayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E34C0E0B14FE3A5900A95836 /* dayTests.h */,
+				E34C0E0C14FE3A5900A95836 /* dayTests.m */,
+				E34C0E0614FE3A5900A95836 /* Supporting Files */,
+			);
+			path = dayTests;
+			sourceTree = "<group>";
+		};
+		E34C0E0614FE3A5900A95836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E34C0E0714FE3A5900A95836 /* dayTests-Info.plist */,
+				E34C0E0814FE3A5900A95836 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E34C0DD914FE3A5800A95836 /* day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34C0E1014FE3A5900A95836 /* Build configuration list for PBXNativeTarget "day" */;
+			buildPhases = (
+				E34C0DD614FE3A5800A95836 /* Sources */,
+				E34C0DD714FE3A5800A95836 /* Frameworks */,
+				E34C0DD814FE3A5800A95836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day;
+			productName = day;
+			productReference = E34C0DDA14FE3A5800A95836 /* day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E34C0DFD14FE3A5900A95836 /* dayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34C0E1314FE3A5900A95836 /* Build configuration list for PBXNativeTarget "dayTests" */;
+			buildPhases = (
+				E34C0DF914FE3A5900A95836 /* Sources */,
+				E34C0DFA14FE3A5900A95836 /* Frameworks */,
+				E34C0DFB14FE3A5900A95836 /* Resources */,
+				E34C0DFC14FE3A5900A95836 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34C0E0414FE3A5900A95836 /* PBXTargetDependency */,
+			);
+			name = dayTests;
+			productName = dayTests;
+			productReference = E34C0DFE14FE3A5900A95836 /* dayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E34C0DD114FE3A5700A95836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E34C0DD414FE3A5700A95836 /* Build configuration list for PBXProject "day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E34C0DCF14FE3A5700A95836;
+			productRefGroup = E34C0DDB14FE3A5800A95836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34C0DD914FE3A5800A95836 /* day */,
+				E34C0DFD14FE3A5900A95836 /* dayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E34C0DD814FE3A5800A95836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C0DE914FE3A5800A95836 /* InfoPlist.strings in Resources */,
+				E34C0DF514FE3A5800A95836 /* DateViewController_iPhone.xib in Resources */,
+				E34C0DF814FE3A5900A95836 /* DateViewController_iPad.xib in Resources */,
+				E34C0E1A14FE3B9600A95836 /* icon ipad.png in Resources */,
+				E34C0E1C14FE3B9600A95836 /* icon retina.png in Resources */,
+				E34C0E1D14FE3B9600A95836 /* calendar.png in Resources */,
+				E34C0E1F14FE3E1C00A95836 /* Default.png in Resources */,
+				E34C0E2114FE3E3800A95836 /* Default@2x.png in Resources */,
+				E34C0E2314FE410000A95836 /* icon retina.png in Resources */,
+				E34C0E2714FE410E00A95836 /* icon ipad.png in Resources */,
+				E34C0E3514FE42DC00A95836 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34C0DFB14FE3A5900A95836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C0E0A14FE3A5900A95836 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E34C0DFC14FE3A5900A95836 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34C0DD614FE3A5800A95836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C0DEB14FE3A5800A95836 /* main.m in Sources */,
+				E34C0DEF14FE3A5800A95836 /* DateAppDelegate.m in Sources */,
+				E34C0DF214FE3A5800A95836 /* DateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34C0DF914FE3A5900A95836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C0E0D14FE3A5900A95836 /* dayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E34C0E0414FE3A5900A95836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E34C0DD914FE3A5800A95836 /* day */;
+			targetProxy = E34C0E0314FE3A5900A95836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E34C0DE714FE3A5800A95836 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34C0DE814FE3A5800A95836 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E34C0DF314FE3A5800A95836 /* DateViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34C0DF414FE3A5800A95836 /* en */,
+			);
+			name = DateViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E34C0DF614FE3A5900A95836 /* DateViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34C0DF714FE3A5900A95836 /* en */,
+			);
+			name = DateViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		E34C0E0814FE3A5900A95836 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34C0E0914FE3A5900A95836 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E34C0E0E14FE3A5900A95836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E34C0E0F14FE3A5900A95836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E34C0E1114FE3A5900A95836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day/day-Prefix.pch";
+				INFOPLIST_FILE = "day/day-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E34C0E1214FE3A5900A95836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day/day-Prefix.pch";
+				INFOPLIST_FILE = "day/day-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E34C0E1414FE3A5900A95836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/day.app/day";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day/day-Prefix.pch";
+				INFOPLIST_FILE = "dayTests/dayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E34C0E1514FE3A5900A95836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/day.app/day";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day/day-Prefix.pch";
+				INFOPLIST_FILE = "dayTests/dayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E34C0DD414FE3A5700A95836 /* Build configuration list for PBXProject "day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34C0E0E14FE3A5900A95836 /* Debug */,
+				E34C0E0F14FE3A5900A95836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34C0E1014FE3A5900A95836 /* Build configuration list for PBXNativeTarget "day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34C0E1114FE3A5900A95836 /* Debug */,
+				E34C0E1214FE3A5900A95836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34C0E1314FE3A5900A95836 /* Build configuration list for PBXNativeTarget "dayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34C0E1414FE3A5900A95836 /* Debug */,
+				E34C0E1514FE3A5900A95836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E34C0DD114FE3A5700A95836 /* Project object */;
+}
